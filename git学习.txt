@@ -1,0 +1,15 @@
+git add xx.txt  					添加暂存区
+git commit -m "备注"     			提交
+cat xxx.txt   						查看当前文件
+git log --pretty=oneline  			查看日志
+git reset --hard xxxxx   			回滚
+git reflog 							查看操作日志
+git diff -- xxx.txt   				查看当前版本与版本库里面的区别
+git checkout -- xxx.txt   			撤销修改, 或者一键还原
+git rm xx.txt  						git中删除文件
+ssh-keygen -t rsa -C "youremail@example.com"  创建sshkey
+git remote rm origin   删除仓库
+git remote add origin git@iithub.com:Qfcjhd/learngit.git      关联git仓库 orgin是远程仓库的名字
+git --version   //查看git的版本信息
+git config --global user.name   //获取当前登录的用户
+git config --global user.email  //获取当前登录用户的邮箱
